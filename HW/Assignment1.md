@@ -59,18 +59,13 @@ The ```crossorigin``` attribute can take three possible values:
 |-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 | **Core Purpose**      | Provides the core functionality of React        | Provides DOM-specific methods to render and manage the    |
 |                       | (components, JSX, state management, etc.)       | DOM in a web environment                                  |
-|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 | **Primary Role**      | Defines the structure, logic, and behavior of   | Renders React components to the DOM                       |
 |                       | UI components                                   |                                                           |
-|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 | **Usage**             | Used in both web and non-web (e.g., React Native)| Specifically used for rendering in web browsers          |
 |                       | environments                                    |                                                           |
-|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 | **Key Methods**       | `React.createElement()`, `React.Component`, JSX | `ReactDOM.render()`, `ReactDOM.hydrate()`                 |
-|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 | **Environment**       | Can be used in any JavaScript environment (e.g.,| Used exclusively in the browser environment               |
 |                       | React Native, server-side rendering, etc.)      |                                                           |
-|-----------------------|-------------------------------------------------|-----------------------------------------------------------|
 
 
 ## What is the difference between `react.development.js` and `react.production.js` files via CDN?
